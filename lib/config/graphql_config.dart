@@ -3,7 +3,7 @@ import 'package:graphql_flutter/graphql_flutter.dart';
 
 class GraphQLConfig {
   static HttpLink httpLink = HttpLink(
-    'https://graphqlplaceholder.vercel.app/graphql',
+    'https://countries.trevorblades.com/graphql',
   );
 
   static ValueNotifier<GraphQLClient> clientToQuery() {
